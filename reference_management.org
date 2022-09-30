@@ -1,0 +1,24 @@
+** Paper management
+*** Common software
++ Library management
+  + Zotero (*free*, open source) 插件
+  + Citavi (free, commercial)
+  + Endnote (.ris, commercial)
++ *Pure text*
+  + bibtex (bib): 版本控制，备份，体积小
+    + Reference to books, conferences
+*** Bibtex
+**** Add entry
++ Google scholar
++ Journal website
++ [[https://www.doi2bib.org][doi to bib]]
+**** Key
+自动生成 key （Emacs, *Jabref*)
+#+begin_src
+authordate_title_sepearated_by_underscores
+#+end_src
+**** pdf file link
++ 自动生成
++ 手动修改 pdf 文件名称
+**** Tools
++ [[https://www.jabref.org][Jabref]]
